@@ -1,0 +1,23 @@
+body {
+    font-family: verdana;
+}
+
+main {
+    display: flex;
+}
+
+main > * {
+    flex: 1;
+}
+
+.selected {
+    background-color: dodgerBlue;
+}
+/* 
+a {
+    padding: 0.25rem;
+} */
+
+.selected a {
+    color: cornSilk;
+}
